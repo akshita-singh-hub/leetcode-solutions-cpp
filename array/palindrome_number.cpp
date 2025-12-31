@@ -2,7 +2,8 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         int num=x;
-        int rev=0,digit;
+        int digit;
+        long long rev=0;
         bool ispal=true;
         while(x>0){
             digit=x%10;
